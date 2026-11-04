@@ -1,4 +1,4 @@
-# 🚀 High-Availability LLM Token Generation Limiter & Fallback Proxy
+#  High-Availability LLM Token Generation Limiter & Fallback Proxy
 
 A resilient, high-availability AI proxy built with **FastAPI** and **Python (`httpx`)**. This service routes incoming prompt requests to a primary LLM provider (**OpenAI**) and automatically fails over to a secondary provider (**Groq**) whenever rate limits (`429`), authentication errors, or server downtimes (`5xx`) are detected.
 
